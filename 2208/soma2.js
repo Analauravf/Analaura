@@ -14,3 +14,7 @@ let texto1= "olá";
 let texto2= "mundo";
 let mensagem= texto1 +" "+ texto2;
 console.log(mensagem);//Resultado:"olá mundo"
+
+var numero = 2;
+mensagem = texto1 + " " + texto2 + " " + numero
+console.log(mensagem); //Resultado:"olá mundo"
