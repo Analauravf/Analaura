@@ -11,3 +11,8 @@ let num1= 3;
 let num2= 4;
 resultado=num1 * (num1+num2);
 console.log(resultado4); //Resultado:21(soma primeiro,depois multiplicação)
+
+const Pi = 3.14;
+let raio= 5;
+let area= Pi *raio*raio;
+console.log(area); //Resultado:78.5(cálculo da área de um círculo)
