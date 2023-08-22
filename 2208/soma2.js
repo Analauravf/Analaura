@@ -9,3 +9,8 @@ let decimal1= 2.5;
 let decimal2= 1.3;
 let soma2= decimal1 + decimal2;
 console.log(soma2);//Resultado:3.8
+
+let texto1= "olá";
+let texto2= "mundo";
+let mensagem= texto1 +" "+ texto2;
+console.log(mensagem);//Resultado:"olá mundo"
