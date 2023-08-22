@@ -8,3 +8,6 @@ console.log(multiplicação2); //Resultado: 3.75
 
 let resultado= 10 * 0;
 console.log(resultado3); //Resultado:0
+
+resultado= 2+3 * 4;
+console.log(resultado4); //Resultado:14(multiplicação) primeiro,depois soma)
