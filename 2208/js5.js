@@ -6,3 +6,8 @@ console.log(resultado2); //Resultado:13(soma primeiro, depois subtração)
 
 let resultado3=(10+5) * 2-3
 console.log(resultado3); //Resultado:27(soma primeiro,depois multiplicaçõa e subtração)
+
+let num1= 3;
+let num2= 4;
+resultado=num1 * (num1+num2);
+console.log(resultado4); //Resultado:21(soma primeiro,depois multiplicação)
