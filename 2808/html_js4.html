@@ -6,15 +6,40 @@
     <title>Primeira página em Javascript</title>
 </head>
 <body>
-     <h1>Bauru, acidade sem limites</h1>
+    <style>
+        body{background-color: #f5e6ef;}
+        div{border: 5px solid  #dd7bdd;}
+    </style>
+<div>
+    <h1>Bauru, a cidade sem limites</h1>
      <p id="texto"></p>
      <p id="texto2"></p>
+     <P id="texto3"></P>
+    </div>
      <script type="text/javascript">
 
-        document.write('Bauru, cidade sem limites');
-        document.getElementById('texto').innerHTML = 'Bauru é uma cidade localizada no interior do estado de São Paulo, Brasil. É conhecidade por sua rica cultura, educação e economia diversificada';
-        document.getElementById('texto2').innerHTML ='A cidade também é famosa por seus pontos tirísticos, como o Parque Vitória Regia e o Zoológico Municipal';
-        document.getElementById('texto3').innerHTML ='Venha visitar Bauru e descobrir tudo o que essa cidade incrível tem a oferecer';
+        
+        document.getElementById('texto').innerHTML = 'Bauru é uma cidade localizada no interior do estado de São Paulo, Brasil. É conhecidade por sua rica cultura, educação e economia diversificada.';
+        document.getElementById('texto2').innerHTML ='A cidade também é famosa por seus pontos tirísticos, como o Parque Vitória Regia e o Zoológico Municipal.';
+        document.getElementById('texto3').innerHTML ='Venha visitar Bauru e descobrir tudo o que essa cidade incrível tem a oferecer.';
+
+        var Pessoa = new Object()
+        Pessoa.nome = 'Ana Laura Viana Fantatto';
+        Pessoa.escola = 'Ernesto Monte';
+        Pessoa.localização = 'Bauru/SP , Brasil';
+
+        document.write("Meu nome é: " , Pessoa.nome, "&nbsp;&nbsp;&nbsp;&nbsp,Minha escola é: ", Pessoa.escola, "&nbsp;&nbsp;&nbsp;&nbsp; Minha localização é: " , Pessoa.localização);
+        
      </script>
+
+     
+
+
+
+
+ 
+
+   
+
 </body>
 </html>
