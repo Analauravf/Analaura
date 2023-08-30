@@ -14,26 +14,18 @@
 
     <script type="text/javascript">
 
-        let frase = 'espaços em branco';
-        let textolimpo = frase.trim();
-        console.log(textolimpo);
-        
-        let comecaCom = frase.startsWith('espaços');
-        console.log(comecaCom);
-
-        let terminaCom = frase.endsWith('branco');
-        console.log(terminaCom);
+        let nome = 'joão';
+        let sobrenome ='Silva';
+        let nomeClompleto =nome + ' ' + sobrenome;
+        console.log(nomeClompleto);
+        let mensagem = `olá, ${nome}${sobrenome}!`;
+        console.log(mensagem);
 
 
-
-
-
-
-
-        document.getElementById('teste1').innerHTML += frase;
-        document.getElementById('teste1').innerHTML += textolimpo;
-        document.getElementById('teste1').innerHTML += comecaCom;
-        document.getElementById('teste1').innerHTML += terminaCom;
+        document.getElementById('teste1').innerHTML += nome;
+        document.getElementById('teste1').innerHTML += sobrenome;
+        document.getElementById('teste1').innerHTML += nomeClompleto;
+        document.getElementById('teste1').innerHTML += mensagem;
         
 <body>
 <html>
