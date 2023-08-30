@@ -14,18 +14,17 @@
 
     <script type="text/javascript">
 
-        let nome = 'joão';
-        let sobrenome ='Silva';
-        let nomeClompleto =nome + ' ' + sobrenome;
-        console.log(nomeClompleto);
-        let mensagem =  `ola ${nome}${sobrenome}!`;
-        console.log(mensagem);
+        let texto = 'texto para conversão';
+        let maiusculas = texto.toUpperCase();
+        console.log(maiusculas);
+        let minusculas = texto.toLocaleUpperCase();
+        console.log(minusculas);
 
 
-        document.getElementById('teste1').innerHTML += nome;
-        document.getElementById('teste1').innerHTML += sobrenome;
-        document.getElementById('teste1').innerHTML += nomeClompleto;
-        document.getElementById('teste1').innerHTML += mensagem;
+        document.getElementById('teste1').innerHTML += texto;
+        document.getElementById('teste1').innerHTML += maiuscula;
+        document.getElementById('teste1').innerHTML += minuscula;
+      
       </script>  
 <body>
 <html>
