@@ -14,20 +14,26 @@
 
     <script type="text/javascript">
 
-        let texto = 'ola mundo!';
-        let tamanho = texto.length;
-        console.log(tamnaho);
+        let frase = 'espaços em branco';
+        let textolimpo = frase.trim();
+        console.log(textolimpo);
+        
+        let comecaCom = frase.startsWith('espaços');
+        console.log(comecaCom);
 
-        let primeiroCaractere= <texto[0];
-        console.log(primeiroCaractere);
-        let txto1 = 'ola mundo!';
-        let posição= texto1.indexOf('mundo');
-        console.log(posiçãõ);
+        let terminaCom = frase.endsWith('branco');
+        console.log(terminaCom);
 
-        document.getElementById('teste1').innerHTML += texto;
-        document.getElementById('teste1').innerHTML += tamanho;
-        document.getElementById('teste1').innerHTML += texto1;
-        document.getElementById('teste1').innerHTML += posição;
-        document.getElementById('teste1').innerHTML += primeiroCaractere;
+
+
+
+
+
+
+        document.getElementById('teste1').innerHTML += frase;
+        document.getElementById('teste1').innerHTML += textolimpo;
+        document.getElementById('teste1').innerHTML += comecaCom;
+        document.getElementById('teste1').innerHTML += terminaCom;
+        
 <body>
 <html>
