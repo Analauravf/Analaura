@@ -14,16 +14,14 @@
 
     <script type="text/javascript">
 
-        let texto = 'texto para conversão';
-        let maiusculas = texto.toUpperCase();
-        console.log(maiusculas);
-        let minusculas = texto.toLocaleUpperCase();
-        console.log(minusculas);
+        let texto = 'Aprenda JavaScript, aprenda Python';
+        let novoTexto = texto.replace(/aprenda/g, 'estude');
+        console.log(novoTexto);
 
 
         document.getElementById('teste1').innerHTML += texto;
-        document.getElementById('teste1').innerHTML += maiuscula;
-        document.getElementById('teste1').innerHTML += minuscula;
+        document.getElementById('teste1').innerHTML += novoTexto;
+     
       
       </script>  
 <body>
