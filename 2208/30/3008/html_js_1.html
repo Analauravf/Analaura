@@ -11,22 +11,20 @@
     <p id="teste1">conteúdo do vetor 1:</p>
     <p id="teste2">conteúdo do vetor 2:</p>
     <p id="teste3">Segunda posição do vetor 1:</p>
-    <p id="teste4">terceira posição do vetor 2:</p>
+ 
 
     <script type="text/javascript">
 
-        let numeros = [1,2,3,4,5];
-        let nomes = ['yemuru','ícaro','carlos','luana']          
-       for(let i= 0; i < numeros.length; i++) {
-        console.log(`número:${numeros[i]}- pessoa: ${nomes[i]}`);
+       let cor= ['vermelho','verde','azul'];
+       cor.forEach(function(cor)
+       console.log(cor);
+    });
+    
 
-       }
-       
-
-        document.getElementById('teste1').innerHTML += yemuri;
-        document.getElementById('teste2').innerHTML += ícaro;
-        document.getElementById('teste3').innerHTML += carlos;
-        document.getElementById('teste4').innerHTML += luana;
+        document.getElementById('teste1').innerHTML += vermelho;
+        document.getElementById('teste2').innerHTML += verde;
+        document.getElementById('teste3').innerHTML += azul;
+      
 
         
 
