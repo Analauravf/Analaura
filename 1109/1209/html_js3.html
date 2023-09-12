@@ -12,12 +12,11 @@
                 const agora = new Date();
                 const dataHoraElement = document.getElementById('data-hora');
                 dataHoraElement.textContent = `Data e hora atual:
-    ${agora.toLocaleDateString()}`;
+    ${agora.toLocaleString()}`;
 
      
     
             }
-
             atualizarDataHora();
 
             setInterval(atualizarDataHora, 1000);
