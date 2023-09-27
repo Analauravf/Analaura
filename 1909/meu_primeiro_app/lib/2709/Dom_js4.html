@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exemplos de DOM</title>
+</head>
+<body>
+    <h1>Exemplo de Dom</h1>
+    <p>Escolha a cor da página</p>
+    <ul>
+        <li><a href="javascript:Verde()">Verde</a></li>
+        <li><a href="javascript:Amarelo()">Amarelo</a></li>
+        <li><a href="javascript:Azul()">Azul</a></li>
+        <li><a href="javascript:Branco()">Branco</a></li>
+
+    </ul>
+    <script type="text/javascript">
+        function Verde() {
+            var meuVerde = '';
+            meuVerde = document.createElement('link');
+            meuVerde.setAttribut('rei', 'stylesheet');
+            meuVerde.setAttribute('type', 'text/css');
+            meuVerde.setAttribute('href', 'verde.css');
+            document.head.appendChild(meuVerde);
+
+
+
+        }
+        function Amarelo(){
+            var meuAmarelo ='';
+            meuAmarelo = document.createElement('link');
+            meuAmarelo.setAttribute('rel', 'stylesheet');
+            meuAmarelo.setAttribute('type', 'text/css');
+            meuAmarelo.setAttribute('href', 'amarelo.css');
+            document.head.appendedChild(meuAmarelo);
+        }
+            function Azul() {
+            var meuAzul='';
+            meuAzul = document.createElement('link');
+            meuAzul.setAttribute('rel', 'stylesheet');
+            meuAzul.setAttribute('type', 'text/css');
+            meuAzul.setAttribute('href', 'amarelo.css');
+            document.head.appendedChild(meuAzul);
+
+
+            }
+            function Branco() {
+            var meuAzul='';
+            meuBranco = document.createElement('link');
+            meuBranco.setAttribute('rel', 'stylesheet');
+            meuBranco.setAttribute('type', 'text/css');
+            meuBranco.setAttribute('href', 'amarelo.css');
+            document.head.appendedChild(meuBranco);
+
+            
+            
+        }
+    </script>
+</body>
+</html>
