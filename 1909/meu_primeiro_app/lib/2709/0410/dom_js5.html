@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Exemplos de DOM</title>
+</head>
+<body>
+    <h1>Eventos onmousedown e onmouseup</h1>
+    <img src="luz-apagada.gift" alt="Lampada"
+         title="Lampada" id="lampada"
+         onmousedown="Acende()" onmouseup="Apaga()">
+    <p>Clique na lampada e mantenha o mouse pressionado</p>   
+    
+    <script type="text/javascript">
+        function Acende() {
+            document.getElementById('lampada').src = 'luz-acesa.gif';
+
+        }
+        function Apaga() {
+            document.getElementById('lampada').src = 'luz-acesa.gif';
+        }
+        function Apaga() {
+            document.getElementById('lampada').src = 'luz-apagada.gif';
+        }
+
+    </script>
+</body>
+</html>    
